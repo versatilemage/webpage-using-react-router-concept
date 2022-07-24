@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    background: rgb(198, 13, 13);
+}
+
+.Home-img {
+    height: 90vh;
+    width: 80%;
+    margin-left: 15em;
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+.Home-container {
+    /* display: grid;
+    grid-template-columns: 100%; */
+    display: block;
+}
+
+.Home-details {
+    width: 70%;
+    margin: 2em 1em 1em 15em;
+    padding-left: 2em;
+    border-left: solid 2px white;
+}
+
+.container-heading {
+    margin-top: 6em;
+    margin-left: 2em;
+    position: absolute;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.7em rgb(0, 0, 0);
+}
+
+.insideHead {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.details-txt {
+    font-size: 1.6em;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

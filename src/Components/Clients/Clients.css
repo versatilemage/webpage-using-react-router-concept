@@ -1,0 +1,36 @@
+.clients-container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.client-List {
+    display: flex;
+    flex-direction: column;
+    /* background: rgb(255, 255, 255); */
+}
+
+.contain-img {
+    width: 100%;
+}
+
+.client-image {
+    width: 28em;
+    height: 45vh;
+    object-fit: cover;
+    inline-size: 100%;
+}
+
+.client-details {
+    width: 90%;
+    margin: 0 auto 0 1em;
+}
+
+.client-memo {
+    color: rgb(164, 164, 164);
+}
+
+.clientHeading {
+    margin-left: 1em;
+    color: goldenrod;
+    text-decoration: underline;
+}

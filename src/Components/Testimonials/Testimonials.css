@@ -1,0 +1,54 @@
+.testimony-heading {
+    color: goldenrod;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-left: 1em;
+}
+
+.contain-testimonials {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    align-items: stretch;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.black-bg {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 5em 0;
+    margin: 0 auto 3em;
+    width: 80%;
+
+}
+
+.testimonial-txt {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5em;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.testimonial-txt1 {
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 1em auto 0em;
+    font-weight: 600;
+    color: rgb(130, 130, 130);
+}
+
+.testi-subtxt {
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 700;
+    margin: 3em auto;
+}

@@ -1,0 +1,30 @@
+.HeadContainer {
+  background: rgb(0, 153, 158);
+  padding: 1.5em 0em 0.5em;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1.5em;
+}
+
+.Link-button {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.Link-button:hover {
+  color: rgb(251, 31, 31);
+}
+
+.logo{
+  margin-top: -0.1em;
+  margin-left: 1em;
+}

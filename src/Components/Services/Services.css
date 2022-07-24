@@ -1,0 +1,31 @@
+.service-bg1 {
+    background: rgba(255, 255, 255, 0.4);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 95%;
+    margin: 1em auto 0em;
+}
+.left-side {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0 1em;
+}
+.services-image {
+    width: 100%;
+}
+
+.leftcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-top: 8em;
+}
+
+.service-bg2 {
+    background: rgba(255, 255, 255, 0.4);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 95%;
+    margin: 0 auto 1em;
+}
